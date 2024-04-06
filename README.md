@@ -11,7 +11,5 @@ Open terminal
 To turn on bluetooth:
 ```
 sudo bluetoothctl
-
-```
 agent on
 
