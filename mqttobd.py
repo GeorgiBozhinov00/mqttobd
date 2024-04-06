@@ -6,11 +6,11 @@ import time
 connection = obd.OBD() # auto-connects to USB or RF port
 
 # MQTT broker IP and port
-broker_address = "7.tcp.eu.ngrok.io"
-port = 11340
+broker_address = ""
+port = 1
 
 # MQTT topic
-oboroti = "oboroti"
+topic = ""
 
 # Function to read and publish OBD data to MQTT
 def publish_obd_data():
