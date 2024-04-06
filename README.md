@@ -7,11 +7,13 @@
  Copy the repository and change the values of the following variables "broker_address", "port", "topic"
 Plug in the ELM327 in your veichle
 Open terminal 
+
+To turn on bluetooth:
 ```
 sudo bluetoothctl
+
+Activate the agent for pairing codes
 
 ```
 agent on
 
-```
-default-agent
