@@ -11,5 +11,32 @@ Open terminal
 To turn on bluetooth:
 ```
 sudo bluetoothctl
+```
+
+```
 agent on
+```
+
+```
+default-agent
+```
+
+```
+scan on
+```
+
+```
+pair **yourDeviceMacAddress**
+```
+
+```
+trust **yourDeviceMacAddress**
+```
+
+Exit the bluetoothctl terminal 
+```
+rfcomm bind /dev/rfcomm0 **yourDeviceMacAddress**
+```
+
+
 
