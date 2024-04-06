@@ -12,28 +12,25 @@ To turn on bluetooth:
 ```
 sudo bluetoothctl
 ```
-
+Turn on the agent in order to pair
 ```
 agent on
 ```
-
-```
-default-agent
-```
-
+Scan for devices
 ```
 scan on
 ```
-
+When you find the device copy the mac address XX:XX:XX:XX:XX:XX
 ```
 pair **yourDeviceMacAddress**
 ```
-
+In order to save the device to known devices you can trust it
 ```
 trust **yourDeviceMacAddress**
 ```
-
 Exit the bluetoothctl terminal 
+
+Reserve a rfcomm for the bluetooth device
 ```
 rfcomm bind /dev/rfcomm0 **yourDeviceMacAddress**
 ```
