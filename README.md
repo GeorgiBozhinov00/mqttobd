@@ -9,9 +9,9 @@ Plug in the ELM327 in your veichle
 Open terminal 
 ```
 sudo bluetoothctl
+
 ```
 agent on
-```
+
 ```
 default-agent
-```
